@@ -14,7 +14,9 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Plugins
 local plugins = {
+    'ellisonleao/gruvbox.nvim',
     'nvim-lualine/lualine.nvim',
+    'nvim-tree/nvim-tree.lua',
     'nvim-tree/nvim-web-devicons'
 }
 
