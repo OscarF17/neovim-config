@@ -14,11 +14,21 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Plugins
 local plugins = {
+    -- Colorschemes
     'ellisonleao/gruvbox.nvim',
-    'nvim-lualine/lualine.nvim',
     'nvim-tree/nvim-tree.lua',
-    'nvim-treesitter/nvim-treesitter',
     'nvim-tree/nvim-web-devicons',
+    'nvim-lualine/lualine.nvim',
+    'nvim-treesitter/nvim-treesitter',
+    'hrsh7th/nvim-cmp',
+    'hrsh7th/cmp-nvim-lsp',
+    'L3MON4D3/LuaSnip',
+    'saadparwaiz1/cmp_luasnip',
+    'rafamadriz/friendly-snippets',
+    'williamboman/mason.nvim',
+    'williamboman/mason-lspconfig.nvim',
+    "neovim/nvim-lspconfig",
+    -- Telescope (search)
     {
 	  'nvim-telescope/telescope.nvim',
 	  tag = '0.1.0',
