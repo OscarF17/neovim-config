@@ -17,7 +17,13 @@ local plugins = {
     'ellisonleao/gruvbox.nvim',
     'nvim-lualine/lualine.nvim',
     'nvim-tree/nvim-tree.lua',
-    'nvim-tree/nvim-web-devicons'
+    'nvim-treesitter/nvim-treesitter',
+    'nvim-tree/nvim-web-devicons',
+    {
+	  'nvim-telescope/telescope.nvim',
+	  tag = '0.1.0',
+	  dependencies = { {'nvim-lua/plenary.nvim'} }
+    }
 }
 
 -- Options

@@ -1,3 +1,5 @@
 require("core.conf_plugins.lualine")
 require("core.conf_plugins.colorscheme")
 require("core.conf_plugins.nvim-tree")
+require("core.conf_plugins.telescope")
+require("core.conf_plugins.treesitter")
