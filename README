@@ -1,0 +1,17 @@
+Requirements:
+Neovim >= 0.8.0
+Git >= 2.19.0
+nodejs >= 14.14
+
+Set up:
+0.1.- Install Neovim (download appimage file and insert it into a PATH directory, like /usr/local/bin)
+0.2.- Install nodejs the same way (create directory for all the files, add /usr/local/node/bin to PATH)
+
+1. Clone the repository in the ~/.config directory and rename it to "nvim"
+2. Open nvim on terminal and let it install all plugins
+3. Go into ~/.local/share/nvim/lazy/coc.nvim and run the following commands:
+    sudo npm install -g yarn
+    yarn install
+    yarn build
+4. Install LSP's
+    :CocCommand clangd.install

@@ -23,15 +23,7 @@ local plugins = {
     'nvim-treesitter/nvim-treesitter',
     'neoclide/coc.nvim',
     'clangd/clangd',
-    --'hrsh7th/nvim-cmp',
-    --'hrsh7th/cmp-nvim-lsp',
-    --'L3MON4D3/LuaSnip',
-    --'saadparwaiz1/cmp_luasnip',
     'rafamadriz/friendly-snippets',
-    --'williamboman/mason.nvim',
-    --'williamboman/mason-lspconfig.nvim',
-    --"neovim/nvim-lspconfig",
-    -- Telescope (search)
     {
 	  'nvim-telescope/telescope.nvim',
 	  tag = '0.1.0',
@@ -39,6 +31,16 @@ local plugins = {
     }
 }
 
+-- Unused plugins
+    --'hrsh7th/nvim-cmp',
+    --'hrsh7th/cmp-nvim-lsp',
+    --'L3MON4D3/LuaSnip',
+    --'saadparwaiz1/cmp_luasnip',
+    --'williamboman/mason.nvim',
+    --'williamboman/mason-lspconfig.nvim',
+    --"neovim/nvim-lspconfig",
+    -- Telescope (search)
+ 
 -- Options
 local opts = {}
 
