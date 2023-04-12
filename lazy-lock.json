@@ -1,6 +1,6 @@
 {
-  "clangd": { "branch": "master", "commit": "a729875fb1640c811c95b7094c8387140c9b9209" },
   "coc.nvim": { "branch": "master", "commit": "3014125e4ab7d35e08bbcde946dca4812b84f105" },
+  "dracula.nvim": { "branch": "main", "commit": "ce99c0b68edca27caa1701c0e79cf461b484d501" },
   "gruvbox.nvim": { "branch": "main", "commit": "de4e3380575acc1bc9a349d32f028301dea54dcd" },
   "lazy.nvim": { "branch": "main", "commit": "57cce98dfdb2f2dd05a0567d89811e6d0505e13b" },
   "lualine.nvim": { "branch": "master", "commit": "84ffb80e452d95e2c46fa29a98ea11a240f7843e" },

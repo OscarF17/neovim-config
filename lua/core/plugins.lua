@@ -16,6 +16,7 @@ vim.opt.rtp:prepend(lazypath)
 local plugins = {
     -- Colorschemes
     'ellisonleao/gruvbox.nvim',
+    'Mofiqul/dracula.nvim',
     'nvim-tree/nvim-tree.lua',
     'nvim-tree/nvim-web-devicons',
     'nvim-lualine/lualine.nvim',
