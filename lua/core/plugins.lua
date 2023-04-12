@@ -22,6 +22,7 @@ local plugins = {
     'nvim-lualine/lualine.nvim',
     'nvim-treesitter/nvim-treesitter',
     'neoclide/coc.nvim',
+    'clangd/clangd',
     --'hrsh7th/nvim-cmp',
     --'hrsh7th/cmp-nvim-lsp',
     --'L3MON4D3/LuaSnip',
