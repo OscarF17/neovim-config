@@ -1,3 +1,8 @@
+" This file is meant to be used for configurations that I couldn't get to run
+" on Lua files.
+" I will improve modularity if more configurations need to be done on .vim
+" files
+
 " Use Enter (CR) to trigger autocomplete
 inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 
