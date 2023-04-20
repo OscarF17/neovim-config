@@ -25,3 +25,9 @@ vim.api.nvim_set_keymap('n', '<leader>7', '7gt', { noremap = true, silent = true
 vim.api.nvim_set_keymap('n', '<leader>8', '8gt', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>9', '9gt', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>0', ':tablast<cr>', { noremap = true, silent = true })
+
+-- Enable CTRL+Backspace (currently not working)
+vim.api.nvim_set_keymap('i', '<C-BS>', '<C-w>', { noremap = true })
+
+-- Enable delete next word with CTRL+d 
+vim.api.nvim_set_keymap('i', '<C-d>', '<C-o>de', { noremap = true })
