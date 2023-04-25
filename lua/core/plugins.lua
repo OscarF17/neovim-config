@@ -23,6 +23,7 @@ local plugins = {
     'nvim-treesitter/nvim-treesitter',
     'neoclide/coc.nvim',
     'clangd/clangd',
+    "neovim/nvim-lspconfig",
     'rafamadriz/friendly-snippets',
     {
 	  'nvim-telescope/telescope.nvim',
@@ -38,7 +39,6 @@ local plugins = {
     --'saadparwaiz1/cmp_luasnip',
     --'williamboman/mason.nvim',
     --'williamboman/mason-lspconfig.nvim',
-    --"neovim/nvim-lspconfig",
     -- Telescope (search)
  
 -- Options

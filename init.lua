@@ -4,4 +4,4 @@ require("core.plugins")
 require("core.conf_plugins")
 
 -- Load vim settings
-vim.cmd('source ~/.config/nvim/settings.vim')
+vim.cmd('source ~/.config/nvim/vim/settings.vim')
