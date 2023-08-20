@@ -2,6 +2,7 @@ Requirements:
 Neovim >= 0.8.0
 Git >= 2.19.0
 nodejs >= 14.14
+GCC and G++
 
 Set up:
 0.1.- Install Neovim (download appimage file and insert it into a PATH directory, like /usr/local/bin)
@@ -14,4 +15,5 @@ Set up:
     yarn install
     yarn build
 4. Install LSP's
+    Open any .c file
     :CocCommand clangd.install
