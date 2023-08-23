@@ -37,11 +37,9 @@ vim.g.toggle_relativenumber = true
 
 function ToggleRelativeNumber()
     if vim.g.toggle_relativenumber then 
-        vim.cmd("set number!")
         vim.cmd("set relativenumber")
     else
         vim.cmd("set relativenumber!")
-        vim.cmd("set number")
     end
     vim.g.toggle_relativenumber = not vim.g.toggle_relativenumber
 end
