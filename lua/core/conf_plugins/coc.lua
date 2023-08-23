@@ -7,7 +7,8 @@ local extensions = {
     "coc-sql",
     "coc-perl",
     "coc-css",
-    "coc-clangd"
+    "coc-clangd",
+    "coc-python"
 }
 
 -- Set g:coc_global_extensions to the list of Coc extensions
