@@ -8,7 +8,8 @@ local extensions = {
     "coc-perl",
     "coc-css",
     "coc-clangd",
-    "coc-python"
+    "coc-python",
+    "coc-flutter"
 }
 
 -- Set g:coc_global_extensions to the list of Coc extensions
