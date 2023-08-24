@@ -1,8 +1,8 @@
 -- Window navigation when using :split and :vsplit
-vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
-vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
-vim.keymap.set('n', '<c-h>', ':wincmd h<CR>')
-vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
+vim.keymap.set('n', '<M-k>', ':wincmd k<CR>')
+vim.keymap.set('n', '<M-j>', ':wincmd j<CR>')
+vim.keymap.set('n', '<M-h>', ':wincmd h<CR>')
+vim.keymap.set('n', '<M-l>', ':wincmd l<CR>')
 
 -- Forget search
 vim.keymap.set('n', '<leader>h', ':nohlsearch<CR>')
@@ -32,6 +32,9 @@ vim.api.nvim_set_keymap('i', '<C-BS>', '<C-w>', { noremap = true })
 -- Enable delete next word with CTRL+d 
 vim.api.nvim_set_keymap('i', '<C-d>', '<C-o>de', { noremap = true })
 
+-- NERD TREE
+-- Keybinding to open and close nerd tree
+vim.keymap.set('n', '<F3>', ':NvimTreeFindFileToggle<CR>')
 
 vim.g.toggle_relativenumber = true
 

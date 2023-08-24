@@ -6,6 +6,3 @@ require("nvim-tree").setup({
     adaptive_size = true
   }
 })
-
--- Keybinding to open and close nerd tree
-vim.keymap.set('n', '<F3>', ':NvimTreeFindFileToggle<CR>')
