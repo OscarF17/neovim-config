@@ -9,3 +9,17 @@ inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 " Use tab to navigate completition list
 inoremap <expr> <Tab> coc#pum#visible() ? coc#pum#next(1) : "\<Tab>"
 inoremap <expr> <S-Tab> coc#pum#visible() ? coc#pum#prev(1) : "\<S-Tab>"
+
+let g:clipboard = {
+\ 'name': 'CopyQ',
+\ 'copy': {
+\ '+': ['copyq', 'add', '-'],
+\ '*': ['copyq', 'add', '-'],
+\ },
+\ 'paste': {
+\ '+': ['copyq', 'paste', '-'],
+\ '*': ['copyq', 'paste', '-'],
+\ },
+\ 'cache_enabled': 1,
+\ }
+
